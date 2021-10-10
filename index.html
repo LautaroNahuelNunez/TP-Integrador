@@ -3,78 +3,79 @@
   <head>
     <title>Cuestionario sobre perritos!</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <h1>Cuestionario sobre perros</h1>
-      1 - ¿Cuánto dura de media la gestación de la perra?
+    <h1 id="titulo">Cuestionario sobre perros</h1>
+    <p class="preguntas">1 - ¿Cuánto dura de media la gestación de la perra?</p>
+    <ul>
+      <li><input type="radio" name="one" value="i" />4 Meses</li>
+      <li><input type="radio" name="one" value="i" />9 Meses</li>
+      <li><input type="radio" name="one" value="c" />2 Meses</li>
+    </ul>
+
+    <p class="preguntas">2 - ¿Con qué edad abren los ojos los cachorros?</p>
+    <ul>
+      <li><input type="radio" name="two" value="i">El mismo día que nacen</li>
+      <li><input type="radio" name="two" value="c">Sobre los 12 días desde el nacimiento</li>
+      <li><input type="radio" name="two" value="i">Sobre los 18 días desde el nacimiento</li>
+    </ul>
+
+      <p class="preguntas">3 - ¿Cuándo se le pone la primera vacuna?</p>
       <ul>
-        <li><input type="radio" name="one" value="i" />4 Meses</li>
-        <li><input type="radio" name="one" value="i" />9 Meses</li>
-        <li><input type="radio" name="one" value="c" />2 Meses</li>
+        <li><input type="radio" name="three" value="c">2 Meses</li>
+        <li><input type="radio" name="three" value="i">3 Meses</li>
+        <li><input type="radio" name="three" value="i">4 Meses</li>
       </ul>
 
-      2 - ¿Con qué edad abren los ojos los cachorros?
+      <p class="preguntas">4 - ¿Cuántas veces al año debemos desparasitarlos por dentro (parásitos intestinales)?</p>
       <ul>
-        <li><input type="radio" name="two" value="i">El mismo día que nacen</li>
-        <li><input type="radio" name="two" value="c">Sobre los 12 días desde el nacimiento</li>
-        <li><input type="radio" name="two" value="i">Sobre los 18 días desde el nacimiento</li>
+        <li><input type="radio" name="four" value="c">Cada 1 mes</li>
+        <li><input type="radio" name="four" value="i">Cada 3 meses</li>
+        <li><input type="radio" name="four" value="i">Cada 12 meses</li>
       </ul>
 
-        3 - ¿Cuándo se le pone la primera vacuna?
-        <ul>
-          <li><input type="radio" name="three" value="c">2 Meses</li>
-          <li><input type="radio" name="three" value="i">3 Meses</li>
-          <li><input type="radio" name="three" value="i">4 Meses</li>
-        </ul>
+      <p class="preguntas">5 - ¿Cuántas veces al año debemos desparasitarlos por fuera (pulgas y garrapatas)?</p>
+      <ul>
+        <li><input type="radio" name="five" value="c">Cada 1 mes</li>
+        <li><input type="radio" name="five" value="i">Cada 3 meses</li>
+        <li><input type="radio" name="five" value="i">Cada 12 meses</li>
+      </ul>
 
-        4 - ¿Cuántas veces al año debemos desparasitarlos por dentro (parásitos intestinales)?
-        <ul>
-          <li><input type="radio" name="four" value="c">Cada 1 mes</li>
-          <li><input type="radio" name="four" value="i">Cada 3 meses</li>
-          <li><input type="radio" name="four" value="i">Cada 12 meses</li>
-        </ul>
+      <p class="preguntas">6 - ¿Cuántas veces es más potente el olfato del perro con respecto al del ser humano?</p>
+      <ul>
+        <li><input type="radio" name="six" value="i">2 a 3 veces más</li>
+        <li><input type="radio" name="six" value="i" />10 a 15 veces más</li>
+        <li><input type="radio" name="six" value="c" />40 a 60 veces más</li>
+      </ul>
 
-        5 - ¿Cuántas veces al año debemos desparasitarlos por fuera (pulgas y garrapatas)?
-        <ul>
-          <li><input type="radio" name="five" value="c">Cada 1 mes</li>
-          <li><input type="radio" name="five" value="i">Cada 3 meses</li>
-          <li><input type="radio" name="five" value="i">Cada 12 meses</li>
-        </ul>
+      <p class="preguntas">7 - ¿Cómo oyen los perros en comparación con las personas?</p>
+      <ul>
+        <li><input type="radio" name="seven" value="c" />El perro oye a una distancia 4 veces superior al humano</li>
+        <li><input type="radio" name="seven" value="i" />Es igual en ambos casos</li>
+        <li><input type="radio" name="seven" value="i" />El perro oye a una distancia 4 veces inferior al humano</li>
+      </ul>
 
-        6 - ¿Cuántas veces es más potente el olfato del perro con respecto al del ser humano?
-        <ul>
-          <li><input type="radio" name="six" value="i">2 a 3 veces más</li>
-          <li><input type="radio" name="six" value="i" />10 a 15 veces más</li>
-          <li><input type="radio" name="six" value="c" />40 a 60 veces más</li>
-        </ul>
+      <p class="preguntas">8- ¿Por qué sacan tanto su lengua?</p>
+      <ul>
+        <li><input type="radio" name="eight" value="i" />Para demostrar que les agradas</li>
+        <li><input type="radio" name="eight" value="i" />Para decirte que tienen hambre</li>
+        <li><input type="radio" name="eight" value="c" />Para regular la temperatura corporal</li>
+      </ul>
 
-        7 - ¿Cómo oyen los perros en comparación con las personas?
-        <ul>
-          <li><input type="radio" name="seven" value="c" />El perro oye a una distancia 4 veces superior al humano</li>
-          <li><input type="radio" name="seven" value="i" />Es igual en ambos casos</li>
-          <li><input type="radio" name="seven" value="i" />El perro oye a una distancia 4 veces inferior al humano</li>
-        </ul>
+      <p class="preguntas">9 - Aproximadamente, ¿qué temperatura corporal tienen los perros?</p>
+      <ul>
+        <li><input type="radio" name="nine" value="c" />38ºC</li>
+        <li><input type="radio" name="nine" value="i" />39ºC</li>
+        <li><input type="radio" name="nine" value="i" />40ºC</li>
+      </ul>
 
-        8- ¿Por qué sacan tanto su lengua?
-        <ul>
-          <li><input type="radio" name="eight" value="i" />Para demostrar que les agradas</li>
-          <li><input type="radio" name="eight" value="i" />Para decirte que tienen hambre</li>
-          <li><input type="radio" name="eight" value="c" />Para regular la temperatura corporal</li>
-        </ul>
-
-        9 - Aproximadamente, ¿qué temperatura corporal tienen los perros?
-        <ul>
-          <li><input type="radio" name="nine" value="c" />38ºC</li>
-          <li><input type="radio" name="nine" value="i" />39ºC</li>
-          <li><input type="radio" name="nine" value="i" />40ºC</li>
-        </ul>
-
-        10 - ¿Cómo es la vista en los perros?
-        <ul>
-          <li><input type="radio" name="ten" value="i" />Tienen acromatismo (ven en blanco, negro y escala de grises)</li>
-          <li><input type="radio" name="ten" value="i" />Ven a color, igual que los humanos</li>
-          <li><input type="radio" name="ten" value="c" />Tienen dicromatismo (ven solo algunos colores, pero no distinguen sus colores asociados)</li>
-        </ul>
-      <script src="script.js"></script>
+      <p class="preguntas">10 - ¿Cómo es la vista en los perros?</p>
+      <ul>
+        <li><input type="radio" name="ten" value="i" />Tienen acromatismo (ven en blanco, negro y escala de grises)</li>
+        <li><input type="radio" name="ten" value="i" />Ven a color, igual que los humanos</li>
+        <li><input type="radio" name="ten" value="c" />Tienen dicromatismo (ven solo algunos colores, pero no distinguen sus colores asociados)</li>
+      </ul>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
