@@ -1,15 +1,47 @@
 body {
-  background-image: url("https://image.freepik.com/free-vector/dog-pattern-background_1273-167.jpg");
+  background-image: url("https://img.freepik.com/free-vector/cute-puppy-dog-mixed-breed-seamless-pattern-background-with-breed-dog-illustration_1284-51492.jpg?size=338&ext=jpg");
 }
 
 #titulo{
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,119,0,0.9248074229691877) 0%, rgba(255,231,0,0.9248074229691877) 100%);
   font-size: 400%;
   text-align: center;
   color: white;
   font-family: 'Gluten', cursive;
 }
+
 .preguntas{
-  font-size: 150%;
+  font-size: 190%;
+  padding: 1%
+}
+
+ul{
+  font-size: 130%;
+  font-family: serif;
+  list-style: none;
+  padding-bottom: 2%;
+}
+
+.box {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,114,18,0.9248074229691877) 0%, rgba(255,218,0,0.6530987394957983) 100%);
+  margin-left: 25%;
+  margin-right: 20%;
+  border-radius: 15px;
+}
+
+.respuestas{
+  margin-left: 25%;
+  margin-right: 20%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.info {
+  margin-left: 25%;
+  margin-right: 20%;
+  border-radius: 15px;
+  background-color: gray;
+  padding: 1%;
 }
