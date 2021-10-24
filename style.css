@@ -1,5 +1,5 @@
-body {
-  background-image: url("https://img.freepik.com/free-vector/cute-puppy-dog-mixed-breed-seamless-pattern-background-with-breed-dog-illustration_1284-51492.jpg?size=338&ext=jpg");
+body{
+  background-image: url("IMG/back.jpg");
 }
 
 #titulo{
@@ -23,25 +23,51 @@ ul{
   padding-bottom: 2%;
 }
 
-.box {
+.box{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,114,18,0.9248074229691877) 0%, rgba(255,218,0,0.6530987394957983) 100%);
   margin-left: 25%;
-  margin-right: 20%;
+  margin-right: 25%;
   border-radius: 15px;
 }
 
 .respuestas{
   margin-left: 25%;
-  margin-right: 20%;
+  margin-right: 25%;
   border-radius: 15px;
   padding: 10px;
+
 }
 
-.info {
+.info{
   margin-left: 25%;
-  margin-right: 20%;
+  margin-right: 25%;
   border-radius: 15px;
-  background-color: gray;
+  background-color: lightgray;
   padding: 1%;
 }
+
+.IMG{
+  display: block;
+  margin-left: 6%;
+  margin-bottom: 1%;
+}
+
+#FINAL {
+  background-color: transparent;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 6px;
+  border: 2px solid #FFC300;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+
+ #FINAL:hover{
+    color: #000000;
+    background-color: #ffffff;
+  }
